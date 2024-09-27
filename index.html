@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Clear Pool Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35a79c;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .parallax {
+            /* The image used */
+            background-image: url('https://images.unsplash.com/photo-1619537905033-fb5406e5a1aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1920');
+            /* Set a specific height */
+            min-height: 400px; 
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .overlay {
+            position: relative;
+            color: white;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .services, .contact {
+            margin: 20px 0;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .services h2, .contact h2 {
+            color: #35a79c;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Crystal Clear Pool Services</h1>
+        </div>
+    </header>
+
+    <div class="parallax">
+        <div class="overlay">
+            <h2>Welcome to Crystal Clear Pools</h2>
+            <p>Your trusted partner for pool cleaning and maintenance.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Regular Pool Cleaning</li>
+                <li>Water Testing and Chemical Balancing</li>
+                <li>Equipment Maintenance and Repair</li>
+                <li>Pool Opening and Closing</li>
+                <li>Green Pool Recovery</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@crystalclearpools.com</p>
+            <p>Address: 123 Pool Lane, Watertown, CA 90210</p>
+            <p>Hours: Monday - Friday: 8am - 6pm</p>
+        </section>
+    </div>
+</body>
+</html>
